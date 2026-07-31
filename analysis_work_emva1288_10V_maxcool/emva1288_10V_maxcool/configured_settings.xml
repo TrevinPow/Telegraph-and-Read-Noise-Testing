@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<ModuleSettings>
+    <SettingsStruct>
+        <PersistType Description="Persist only streamable features" Value="1" />
+        <MaxIterations Description="How often implementation shall try to write values to specific feature (due to complex feature dependencies, multiple write operations are sometimes necessary)" Value="5" />
+        <LoggingLevel Description="None: logging is inactive" Value="0" />
+    </SettingsStruct>
+    <CameraInfo Id="DEV_1AB22C06F5D7" Model="1800 U-2040m">
+        <LocalDevice>
+            <Feature Name="StreamSelector" Value="0" Type="Int" />
+            <IgnoredFeature Name="DeviceDisplayName" Type="String" />
+            <IgnoredFeature Name="DeviceID" Type="String" />
+            <IgnoredFeature Name="DeviceLocation" Type="String" />
+            <IgnoredFeature Name="DeviceModelName" Type="String" />
+            <IgnoredFeature Name="DeviceType" Type="Enum" />
+            <IgnoredFeature Name="DeviceVendorName" Type="String" />
+            <IgnoredFeature Name="DriverPath" Type="String" />
+            <IgnoredFeature Name="StreamCount" Type="Int" />
+            <IgnoredFeature Name="StreamID" Type="String" />
+        </LocalDevice>
+        <RemoteDevice>
+            <Feature Name="AcquisitionFrameRate" Value="30" Type="Float" />
+            <Feature Name="AcquisitionFrameRateEnable" Value="1" Type="Bool" />
+            <Feature Name="AcquisitionMode" Value="SingleFrame" Type="Enum" />
+            <Feature Name="AcquisitionStatusSelector" Value="AcquisitionTransfer" Type="Enum" />
+            <Feature Name="AdaptiveNoiseSuppressionFactor" Value="1" Type="Float" />
+            <SelectorGroup Name="AutoModeRegionSelector" Type="Enum" Value="AutoModeRegion1">
+                <Feature Name="AutoModeRegionOffsetY" Value="1696" Type="Int" />
+                <Feature Name="AutoModeRegionOffsetX" Value="1696" Type="Int" />
+                <Feature Name="AutoModeRegionHeight" Value="0" Type="Int" />
+                <Feature Name="AutoModeRegionWidth" Value="0" Type="Int" />
+            </SelectorGroup>
+            <Feature Name="AutoModeRegionSelector" Value="AutoModeRegion1" Type="Enum" />
+            <SelectorGroup Name="BinningSelector" Type="Enum" Value="Digital">
+                <Feature Name="BinningVertical" Value="1" Type="Int" />
+                <Feature Name="BinningVerticalMode" Value="Sum" Type="Enum" />
+                <Feature Name="BinningHorizontal" Value="1" Type="Int" />
+                <Feature Name="BinningHorizontalMode" Value="Sum" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="BinningSelector" Type="Enum" Value="Sensor">
+                <Feature Name="BinningVertical" Value="1" Type="Int" />
+                <Feature Name="BinningVerticalMode" Value="Sum" Type="Enum" />
+                <Feature Name="BinningHorizontal" Value="1" Type="Int" />
+                <Feature Name="BinningHorizontalMode" Value="Sum" Type="Enum" />
+            </SelectorGroup>
+            <Feature Name="BinningSelector" Value="Digital" Type="Enum" />
+            <SelectorGroup Name="BlackLevelSelector" Type="Enum" Value="All">
+                <Feature Name="BlackLevel" Value="10" Type="Float" />
+            </SelectorGroup>
+            <Feature Name="BlackLevelSelector" Value="All" Type="Enum" />
+            <Feature Name="ChunkSelector" Value="OffsetY" Type="Enum" />
+            <Feature Name="ConvolutionMode" Value="Off" Type="Enum" />
+            <Feature Name="CorrectionSelector" Value="FixedPatternNoiseCorrection" Type="Enum" />
+            <Feature Name="CounterSelector" Value="Counter3" Type="Enum" />
+            <Feature Name="CustomConvolutionValueSelector" Value="Coefficient44" Type="Enum" />
+            <Feature Name="DeviceFirmwareIDSelector" Value="Supported" Type="Enum" />
+            <Feature Name="DeviceFirmwareVersionSelector" Value="Programmed" Type="Enum" />
+            <Feature Name="DeviceIndicatorLuminance" Value="10" Type="Int" />
+            <Feature Name="DeviceIndicatorMode" Value="Active" Type="Enum" />
+            <Feature Name="DeviceLinkThroughputLimit" Value="200000000" Type="Int" />
+            <Feature Name="DeviceLinkThroughputLimitMode" Value="On" Type="Enum" />
+            <Feature Name="DevicePowerSavingMode" Value="Disabled" Type="Enum" />
+            <Feature Name="DeviceTemperatureSelector" Value="Sensor" Type="Enum" />
+            <Feature Name="DeviceUserID" Value="" Type="String" />
+            <Feature Name="EventSelector" Value="Timer1Start" Type="Enum" />
+            <Feature Name="ExposureActiveMode" Value="FlashWindow" Type="Enum" />
+            <Feature Name="ExposureAuto" Value="Off" Type="Enum" />
+            <Feature Name="ExposureAutoMax" Value="8999998" Type="Float" />
+            <Feature Name="ExposureAutoMin" Value="47.933" Type="Float" />
+            <Feature Name="ExposureMode" Value="Timed" Type="Enum" />
+            <Feature Name="ExposureTime" Value="5003.946" Type="Float" />
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="Firmware">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="UserData">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="DefectPixelCorrectionPreset">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="DefectPixelCorrectionUser">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="FixedPatternNoiseCorrectionPreset">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="FixedPatternNoiseCorrectionUser">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="UserSet1">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="UserSet2">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="UserSet3">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="UserSet4">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet0">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet1">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet2">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet3">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet4">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet5">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet6">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet7">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet8">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet9">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet10">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet11">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet12">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet13">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet14">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="FileSelector" Type="Enum" Value="SequencerSet15">
+                <Feature Name="FileOperationSelector" Value="Open" Type="Enum" />
+            </SelectorGroup>
+            <Feature Name="FileSelector" Value="SequencerSet15" Type="Enum" />
+            <Feature Name="GainAuto" Value="Off" Type="Enum" />
+            <Feature Name="GainAutoMax" Value="48" Type="Float" />
+            <Feature Name="GainAutoMin" Value="0" Type="Float" />
+            <SelectorGroup Name="GainSelector" Type="Enum" Value="All">
+                <Feature Name="Gain" Value="0" Type="Float" />
+            </SelectorGroup>
+            <Feature Name="GainSelector" Value="All" Type="Enum" />
+            <Feature Name="Height" Value="1128" Type="Int" />
+            <Feature Name="IntensityAutoPrecedence" Value="MinimizeNoise" Type="Enum" />
+            <Feature Name="IntensityControllerRate" Value="100" Type="Int" />
+            <Feature Name="IntensityControllerRegion" Value="FullImage" Type="Enum" />
+            <SelectorGroup Name="IntensityControllerSelector" Type="Enum" Value="IntensityController1">
+                <Feature Name="IntensityControllerAlgorithm" Value="Mean" Type="Enum" />
+                <Feature Name="IntensityControllerTolerance" Value="5" Type="Int" />
+            </SelectorGroup>
+            <Feature Name="IntensityControllerSelector" Value="IntensityController1" Type="Enum" />
+            <Feature Name="IntensityControllerTarget" Value="50" Type="Float" />
+            <SelectorGroup Name="LUTSelector" Type="Enum" Value="Luminance">
+                <Feature Name="LUTIndex" Value="0" Type="Int" />
+            </SelectorGroup>
+            <Feature Name="LUTSelector" Value="Luminance" Type="Enum" />
+            <Feature Name="LensShadingIndex" Value="3988" Type="Int" />
+            <Feature Name="LineSelector" Value="Line3" Type="Enum" />
+            <Feature Name="OffsetX" Value="1696" Type="Int" />
+            <Feature Name="OffsetY" Value="1696" Type="Int" />
+            <Feature Name="PixelFormat" Value="Mono12" Type="Enum" />
+            <Feature Name="ReverseX" Value="0" Type="Bool" />
+            <Feature Name="ReverseY" Value="0" Type="Bool" />
+            <Feature Name="SensorBitDepth" Value="Bpp12" Type="Enum" />
+            <Feature Name="SensorShutterMode" Value="GlobalShutter" Type="Enum" />
+            <Feature Name="SequencerFeatureSelector" Value="Gain" Type="Enum" />
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="0">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="1">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="2">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="3">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="4">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="5">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="6">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="7">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="8">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="9">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="10">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="11">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="12">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="13">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="14">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <SelectorGroup Name="SequencerSetSelector" Type="Int" Value="15">
+                <Feature Name="SequencerPathSelector" Value="0" Type="Int" />
+            </SelectorGroup>
+            <Feature Name="SequencerSetSelector" Value="15" Type="Int" />
+            <Feature Name="Sharpness" Value="0" Type="Int" />
+            <Feature Name="SoftwareSignalSelector" Value="SoftwareSignal0" Type="Enum" />
+            <SelectorGroup Name="SubRegionSelector" Type="Enum" Value="Region0">
+                <Feature Name="ContrastShape" Value="1" Type="Int" />
+                <Feature Name="ContrastBrightLimit" Value="259" Type="Int" />
+                <Feature Name="ContrastDarkLimit" Value="0" Type="Int" />
+                <Feature Name="ContrastEnable" Value="0" Type="Bool" />
+                <Feature Name="Gamma" Value="1" Type="Float" />
+            </SelectorGroup>
+            <SelectorGroup Name="SubRegionSelector" Type="Enum" Value="Region1">
+                <Feature Name="ContrastShape" Value="4" Type="Int" />
+                <Feature Name="ContrastBrightLimit" Value="4095" Type="Int" />
+                <Feature Name="ContrastDarkLimit" Value="0" Type="Int" />
+                <Feature Name="ContrastEnable" Value="0" Type="Bool" />
+                <Feature Name="Gamma" Value="1" Type="Float" />
+            </SelectorGroup>
+            <SelectorGroup Name="SubRegionSelector" Type="Enum" Value="Region2">
+                <Feature Name="ContrastShape" Value="4" Type="Int" />
+                <Feature Name="ContrastBrightLimit" Value="4095" Type="Int" />
+                <Feature Name="ContrastDarkLimit" Value="0" Type="Int" />
+                <Feature Name="ContrastEnable" Value="0" Type="Bool" />
+                <Feature Name="Gamma" Value="1" Type="Float" />
+            </SelectorGroup>
+            <SelectorGroup Name="SubRegionSelector" Type="Enum" Value="Region3">
+                <Feature Name="ContrastShape" Value="4" Type="Int" />
+                <Feature Name="ContrastBrightLimit" Value="4095" Type="Int" />
+                <Feature Name="ContrastDarkLimit" Value="0" Type="Int" />
+                <Feature Name="ContrastEnable" Value="0" Type="Bool" />
+                <Feature Name="Gamma" Value="1" Type="Float" />
+            </SelectorGroup>
+            <Feature Name="SubRegionSelector" Value="Region3" Type="Enum" />
+            <Feature Name="TestPatternGeneratorSelector" Value="Sensor" Type="Enum" />
+            <Feature Name="TimerSelector" Value="Timer1" Type="Enum" />
+            <Feature Name="TransferSelector" Value="Stream0" Type="Enum" />
+            <SelectorGroup Name="TriggerSelector" Type="Enum" Value="AcquisitionStart">
+                <Feature Name="TriggerActivation" Value="RisingEdge" Type="Enum" />
+                <Feature Name="TriggerMode" Value="Off" Type="Enum" />
+                <Feature Name="TriggerSource" Value="Software" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="TriggerSelector" Type="Enum" Value="AcquisitionEnd">
+                <Feature Name="TriggerActivation" Value="RisingEdge" Type="Enum" />
+                <Feature Name="TriggerMode" Value="Off" Type="Enum" />
+                <Feature Name="TriggerSource" Value="Software" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="TriggerSelector" Type="Enum" Value="AcquisitionActive">
+                <Feature Name="TriggerActivation" Value="RisingEdge" Type="Enum" />
+                <Feature Name="TriggerMode" Value="Off" Type="Enum" />
+                <Feature Name="TriggerSource" Value="Software" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="TriggerSelector" Type="Enum" Value="FrameStart">
+                <Feature Name="TriggerDelay" Value="0" Type="Float" />
+                <Feature Name="TriggerActivation" Value="RisingEdge" Type="Enum" />
+                <Feature Name="TriggerMode" Value="Off" Type="Enum" />
+                <Feature Name="TriggerSource" Value="Software" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="TriggerSelector" Type="Enum" Value="ExposureStart">
+                <Feature Name="TriggerActivation" Value="RisingEdge" Type="Enum" />
+                <Feature Name="TriggerMode" Value="Off" Type="Enum" />
+                <Feature Name="TriggerSource" Value="Software" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="TriggerSelector" Type="Enum" Value="ExposureEnd">
+                <Feature Name="TriggerActivation" Value="RisingEdge" Type="Enum" />
+                <Feature Name="TriggerMode" Value="Off" Type="Enum" />
+                <Feature Name="TriggerSource" Value="Software" Type="Enum" />
+            </SelectorGroup>
+            <SelectorGroup Name="TriggerSelector" Type="Enum" Value="ExposureActive">
+                <Feature Name="TriggerActivation" Value="RisingEdge" Type="Enum" />
+                <Feature Name="TriggerMode" Value="Off" Type="Enum" />
+                <Feature Name="TriggerSource" Value="Software" Type="Enum" />
+            </SelectorGroup>
+            <Feature Name="TriggerSelector" Value="ExposureActive" Type="Enum" />
+            <Feature Name="UserSetSelector" Value="Default" Type="Enum" />
+            <Feature Name="Width" Value="1128" Type="Int" />
+            <IgnoredFeature Name="AcquisitionFrameCount" Type="Int" />
+            <IgnoredFeature Name="AcquisitionFrameRateMode" Type="Enum" />
+            <IgnoredFeature Name="AcquisitionStart" Type="Command" />
+            <IgnoredFeature Name="AcquisitionStatus" Type="Bool" />
+            <IgnoredFeature Name="AcquisitionStop" Type="Command" />
+            <IgnoredFeature Name="ChunkEnable" Type="Bool" />
+            <IgnoredFeature Name="ChunkExposureTime" Type="Float" />
+            <IgnoredFeature Name="ChunkGain" Type="Float" />
+            <IgnoredFeature Name="ChunkHeight" Type="Int" />
+            <IgnoredFeature Name="ChunkImage" Type="Raw" />
+            <IgnoredFeature Name="ChunkLineStatusAll" Type="Int" />
+            <IgnoredFeature Name="ChunkModeActive" Type="Bool" />
+            <IgnoredFeature Name="ChunkOffsetX" Type="Int" />
+            <IgnoredFeature Name="ChunkOffsetY" Type="Int" />
+            <IgnoredFeature Name="ChunkSequencerSetActive" Type="Int" />
+            <IgnoredFeature Name="ChunkTimestamp" Type="Int" />
+            <IgnoredFeature Name="ChunkWidth" Type="Int" />
+            <IgnoredFeature Name="CorrectionDataSize" Type="Int" />
+            <IgnoredFeature Name="CorrectionEntryType" Type="Int" />
+            <IgnoredFeature Name="CorrectionMode" Type="Enum" />
+            <IgnoredFeature Name="CorrectionSet" Type="Enum" />
+            <IgnoredFeature Name="CorrectionSetDefault" Type="Enum" />
+            <IgnoredFeature Name="CounterDuration" Type="Int" />
+            <IgnoredFeature Name="CounterEventActivation" Type="Enum" />
+            <IgnoredFeature Name="CounterEventSource" Type="Enum" />
+            <IgnoredFeature Name="CounterReset" Type="Command" />
+            <IgnoredFeature Name="CounterResetActivation" Type="Enum" />
+            <IgnoredFeature Name="CounterResetSource" Type="Enum" />
+            <IgnoredFeature Name="CounterStatus" Type="Enum" />
+            <IgnoredFeature Name="CounterTriggerActivation" Type="Enum" />
+            <IgnoredFeature Name="CounterTriggerSource" Type="Enum" />
+            <IgnoredFeature Name="CounterValue" Type="Int" />
+            <IgnoredFeature Name="CounterValueAtReset" Type="Int" />
+            <IgnoredFeature Name="CustomConvolutionValue" Type="Int" />
+            <IgnoredFeature Name="DeviceFamilyName" Type="String" />
+            <IgnoredFeature Name="DeviceFirmwareID" Type="String" />
+            <IgnoredFeature Name="DeviceFirmwareUploadType" Type="Int" />
+            <IgnoredFeature Name="DeviceFirmwareVersion" Type="String" />
+            <IgnoredFeature Name="DeviceGenCPVersionMajor" Type="Int" />
+            <IgnoredFeature Name="DeviceGenCPVersionMinor" Type="Int" />
+            <IgnoredFeature Name="DeviceLinkCommandTimeout" Type="Float" />
+            <IgnoredFeature Name="DeviceLinkSpeed" Type="Int" />
+            <IgnoredFeature Name="DeviceManufacturerInfo" Type="String" />
+            <IgnoredFeature Name="DeviceModelName" Type="String" />
+            <IgnoredFeature Name="DeviceReset" Type="Command" />
+            <IgnoredFeature Name="DeviceSFNCVersionMajor" Type="Int" />
+            <IgnoredFeature Name="DeviceSFNCVersionMinor" Type="Int" />
+            <IgnoredFeature Name="DeviceSFNCVersionSubMinor" Type="Int" />
+            <IgnoredFeature Name="DeviceScanType" Type="Enum" />
+            <IgnoredFeature Name="DeviceSerialNumber" Type="String" />
+            <IgnoredFeature Name="DeviceTLVersionMajor" Type="Int" />
+            <IgnoredFeature Name="DeviceTLVersionMinor" Type="Int" />
+            <IgnoredFeature Name="DeviceTemperature" Type="Float" />
+            <IgnoredFeature Name="DeviceTemperatureStatus" Type="Enum" />
+            <IgnoredFeature Name="DeviceVendorName" Type="String" />
+            <IgnoredFeature Name="DeviceVersion" Type="String" />
+            <IgnoredFeature Name="EventAcquisitionEnd" Type="Int" />
+            <IgnoredFeature Name="EventAcquisitionEndTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventAcquisitionStart" Type="Int" />
+            <IgnoredFeature Name="EventAcquisitionStartTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventCounter0End" Type="Int" />
+            <IgnoredFeature Name="EventCounter0EndTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventCounter0Start" Type="Int" />
+            <IgnoredFeature Name="EventCounter0StartTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventCounter1End" Type="Int" />
+            <IgnoredFeature Name="EventCounter1EndTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventCounter1Start" Type="Int" />
+            <IgnoredFeature Name="EventCounter1StartTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventCounter2End" Type="Int" />
+            <IgnoredFeature Name="EventCounter2EndTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventCounter2Start" Type="Int" />
+            <IgnoredFeature Name="EventCounter2StartTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventCounter3End" Type="Int" />
+            <IgnoredFeature Name="EventCounter3EndTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventCounter3Start" Type="Int" />
+            <IgnoredFeature Name="EventCounter3StartTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventExposureEnd" Type="Int" />
+            <IgnoredFeature Name="EventExposureEndTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventExposureStart" Type="Int" />
+            <IgnoredFeature Name="EventExposureStartTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventFrameTrigger" Type="Int" />
+            <IgnoredFeature Name="EventFrameTriggerMissed" Type="Int" />
+            <IgnoredFeature Name="EventFrameTriggerMissedTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventFrameTriggerTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventFrameTriggerWait" Type="Int" />
+            <IgnoredFeature Name="EventFrameTriggerWaitTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventLine0FallingEdge" Type="Int" />
+            <IgnoredFeature Name="EventLine0FallingEdgeTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventLine0RisingEdge" Type="Int" />
+            <IgnoredFeature Name="EventLine0RisingEdgeTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventLine1FallingEdge" Type="Int" />
+            <IgnoredFeature Name="EventLine1FallingEdgeTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventLine1RisingEdge" Type="Int" />
+            <IgnoredFeature Name="EventLine1RisingEdgeTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventLine2FallingEdge" Type="Int" />
+            <IgnoredFeature Name="EventLine2FallingEdgeTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventLine2RisingEdge" Type="Int" />
+            <IgnoredFeature Name="EventLine2RisingEdgeTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventLine3FallingEdge" Type="Int" />
+            <IgnoredFeature Name="EventLine3FallingEdgeTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventLine3RisingEdge" Type="Int" />
+            <IgnoredFeature Name="EventLine3RisingEdgeTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventNotification" Type="Enum" />
+            <IgnoredFeature Name="EventOverflow" Type="Int" />
+            <IgnoredFeature Name="EventOverflowTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventSequencerSetChange" Type="Int" />
+            <IgnoredFeature Name="EventSequencerSetChangeTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventSoftwareSignal0" Type="Int" />
+            <IgnoredFeature Name="EventSoftwareSignal0Timestamp" Type="Int" />
+            <IgnoredFeature Name="EventSoftwareSignal1" Type="Int" />
+            <IgnoredFeature Name="EventSoftwareSignal1Timestamp" Type="Int" />
+            <IgnoredFeature Name="EventTemperatureOK" Type="Int" />
+            <IgnoredFeature Name="EventTemperatureOKTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventTemperatureOvertemperature" Type="Int" />
+            <IgnoredFeature Name="EventTemperatureOvertemperatureTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventTemperatureShutOff" Type="Int" />
+            <IgnoredFeature Name="EventTemperatureShutOffTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventTemperatureWarning" Type="Int" />
+            <IgnoredFeature Name="EventTemperatureWarningTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventTest" Type="Int" />
+            <IgnoredFeature Name="EventTestTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventTimer0End" Type="Int" />
+            <IgnoredFeature Name="EventTimer0EndTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventTimer0Start" Type="Int" />
+            <IgnoredFeature Name="EventTimer0StartTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventTimer1End" Type="Int" />
+            <IgnoredFeature Name="EventTimer1EndTimestamp" Type="Int" />
+            <IgnoredFeature Name="EventTimer1Start" Type="Int" />
+            <IgnoredFeature Name="EventTimer1StartTimestamp" Type="Int" />
+            <IgnoredFeature Name="FileAccessBuffer" Type="Raw" />
+            <IgnoredFeature Name="FileAccessLength" Type="Int" />
+            <IgnoredFeature Name="FileAccessOffset" Type="Int" />
+            <IgnoredFeature Name="FileOpenMode" Type="Enum" />
+            <IgnoredFeature Name="FileOperationExecute" Type="Command" />
+            <IgnoredFeature Name="FileOperationResult" Type="Int" />
+            <IgnoredFeature Name="FileOperationStatus" Type="Enum" />
+            <IgnoredFeature Name="FileProcessStatus" Type="Enum" />
+            <IgnoredFeature Name="FileSize" Type="Int" />
+            <IgnoredFeature Name="FileStatus" Type="Enum" />
+            <IgnoredFeature Name="HeightMax" Type="Int" />
+            <IgnoredFeature Name="LUTEnable" Type="Bool" />
+            <IgnoredFeature Name="LUTLoadAll" Type="Command" />
+            <IgnoredFeature Name="LUTSaveAll" Type="Command" />
+            <IgnoredFeature Name="LUTValue" Type="Int" />
+            <IgnoredFeature Name="LUTValueAll" Type="Raw" />
+            <IgnoredFeature Name="LensShadingCenterOffsetX" Type="Int" />
+            <IgnoredFeature Name="LensShadingCenterOffsetY" Type="Int" />
+            <IgnoredFeature Name="LensShadingEnable" Type="Bool" />
+            <IgnoredFeature Name="LensShadingLoadAll" Type="Command" />
+            <IgnoredFeature Name="LensShadingSaveAll" Type="Command" />
+            <IgnoredFeature Name="LensShadingValue" Type="Float" />
+            <IgnoredFeature Name="LineDebounceDuration" Type="Float" />
+            <IgnoredFeature Name="LineDebounceMode" Type="Enum" />
+            <IgnoredFeature Name="LineInverter" Type="Bool" />
+            <IgnoredFeature Name="LineMode" Type="Enum" />
+            <IgnoredFeature Name="LineSource" Type="Enum" />
+            <IgnoredFeature Name="LineStatus" Type="Bool" />
+            <IgnoredFeature Name="LineStatusAll" Type="Int" />
+            <IgnoredFeature Name="MultipleRegionArrangement" Type="Enum" />
+            <IgnoredFeature Name="MultipleRegionEnable" Type="Bool" />
+            <IgnoredFeature Name="PayloadSize" Type="Int" />
+            <IgnoredFeature Name="PixelSize" Type="Enum" />
+            <IgnoredFeature Name="SensorHeight" Type="Int" />
+            <IgnoredFeature Name="SensorWidth" Type="Int" />
+            <IgnoredFeature Name="SequencerConfigurationMode" Type="Enum" />
+            <IgnoredFeature Name="SequencerConfigurationReset" Type="Command" />
+            <IgnoredFeature Name="SequencerFeatureEnable" Type="Bool" />
+            <IgnoredFeature Name="SequencerMode" Type="Enum" />
+            <IgnoredFeature Name="SequencerSetActive" Type="Int" />
+            <IgnoredFeature Name="SequencerSetLoad" Type="Command" />
+            <IgnoredFeature Name="SequencerSetNext" Type="Int" />
+            <IgnoredFeature Name="SequencerSetSave" Type="Command" />
+            <IgnoredFeature Name="SequencerSetStart" Type="Int" />
+            <IgnoredFeature Name="SequencerTriggerActivation" Type="Enum" />
+            <IgnoredFeature Name="SequencerTriggerSource" Type="Enum" />
+            <IgnoredFeature Name="SerialBaudRate" Type="Enum" />
+            <IgnoredFeature Name="SerialHubEnable" Type="Bool" />
+            <IgnoredFeature Name="SerialParityBit" Type="Enum" />
+            <IgnoredFeature Name="SerialRxData" Type="Raw" />
+            <IgnoredFeature Name="SerialRxSize" Type="Int" />
+            <IgnoredFeature Name="SerialRxWaiting" Type="Int" />
+            <IgnoredFeature Name="SerialStopBits" Type="Int" />
+            <IgnoredFeature Name="SerialTxData" Type="Raw" />
+            <IgnoredFeature Name="SerialTxLock" Type="Bool" />
+            <IgnoredFeature Name="SerialTxRemaining" Type="Int" />
+            <IgnoredFeature Name="SerialTxSize" Type="Int" />
+            <IgnoredFeature Name="SoftwareSignalPulse" Type="Command" />
+            <IgnoredFeature Name="SubRegionHeight" Type="Int" />
+            <IgnoredFeature Name="SubRegionMode" Type="Enum" />
+            <IgnoredFeature Name="SubRegionOffsetX" Type="Int" />
+            <IgnoredFeature Name="SubRegionOffsetY" Type="Int" />
+            <IgnoredFeature Name="SubRegionWidth" Type="Int" />
+            <IgnoredFeature Name="TLParamsLocked" Type="Int" />
+            <IgnoredFeature Name="TestEventGenerate" Type="Command" />
+            <IgnoredFeature Name="TestPattern" Type="Enum" />
+            <IgnoredFeature Name="TestPendingAck" Type="Int" />
+            <IgnoredFeature Name="TimerDelay" Type="Float" />
+            <IgnoredFeature Name="TimerDuration" Type="Float" />
+            <IgnoredFeature Name="TimerReset" Type="Command" />
+            <IgnoredFeature Name="TimerStatus" Type="Enum" />
+            <IgnoredFeature Name="TimerTriggerActivation" Type="Enum" />
+            <IgnoredFeature Name="TimerTriggerSource" Type="Enum" />
+            <IgnoredFeature Name="TimestampLatch" Type="Command" />
+            <IgnoredFeature Name="TimestampLatchValue" Type="Int" />
+            <IgnoredFeature Name="TimestampReset" Type="Command" />
+            <IgnoredFeature Name="TransferControlMode" Type="Enum" />
+            <IgnoredFeature Name="TransferQueueCurrentBlockCount" Type="Int" />
+            <IgnoredFeature Name="TransferQueueMaxBlockCount" Type="Int" />
+            <IgnoredFeature Name="TriggerEventTest" Type="Command" />
+            <IgnoredFeature Name="TriggerSoftware" Type="Command" />
+            <IgnoredFeature Name="UserSetDefault" Type="Enum" />
+            <IgnoredFeature Name="UserSetLoad" Type="Command" />
+            <IgnoredFeature Name="UserSetSave" Type="Command" />
+            <IgnoredFeature Name="WidthMax" Type="Int" />
+        </RemoteDevice>
+    </CameraInfo>
+    <Stream Id="DEV_1AB22C06F5D7_DS_0x0">
+        <IgnoredFeature Name="ManualStreamPayloadSize" Type="Int" />
+        <IgnoredFeature Name="MaxDriverBuffersCount" Type="Int" />
+        <IgnoredFeature Name="StreamAcquisitionModeSelector" Type="Enum" />
+        <IgnoredFeature Name="StreamAnnounceBufferMinimum" Type="Int" />
+        <IgnoredFeature Name="StreamAnnouncedBufferCount" Type="Int" />
+        <IgnoredFeature Name="StreamBufferHandlingMode" Type="Enum" />
+        <IgnoredFeature Name="StreamID" Type="String" />
+        <IgnoredFeature Name="StreamIsGrabbing" Type="Bool" />
+        <IgnoredFeature Name="StreamPayloadSizeAlignment" Type="Int" />
+        <IgnoredFeature Name="StreamPayloadSizeMode" Type="Enum" />
+        <IgnoredFeature Name="StreamStopTimeout" Type="Int" />
+        <IgnoredFeature Name="StreamType" Type="Enum" />
+    </Stream>
+</ModuleSettings>

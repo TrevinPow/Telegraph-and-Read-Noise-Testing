@@ -1,0 +1,28 @@
+{
+  "zip": "emva1288_10V_maxcool.zip",
+  "z_threshold": 4.38,
+  "reference_method": "For each category, each target set is compared against the pixel-wise residual distribution from all other exposure sets in that category. Each set residual is frame minus that set's pixel-wise 8-frame mean, so exposure-dependent brightness is removed before pooling.",
+  "reference_standard_deviation": "Sample standard deviation of the other-set residual frames, with leave-one-set-out exclusion.",
+  "image_shape": [
+    1128,
+    1128
+  ],
+  "aggregate": {
+    "dark": {
+      "sets": 21,
+      "tested_pixel_frames": 213760512,
+      "positive_z_gt_4_38_pixel_frames": 8663,
+      "positive_z_gt_4_38_fraction": 4.052666191218704e-05,
+      "mean_per_set_fraction": 4.052666191218703e-05,
+      "median_per_set_fraction": 4.037696167194809e-05
+    },
+    "bright": {
+      "sets": 21,
+      "tested_pixel_frames": 213760512,
+      "positive_z_gt_4_38_pixel_frames": 144311,
+      "positive_z_gt_4_38_fraction": 0.0006751059802850771,
+      "mean_per_set_fraction": 0.0006751059802850772,
+      "median_per_set_fraction": 1.5227321311805242e-05
+    }
+  }
+}

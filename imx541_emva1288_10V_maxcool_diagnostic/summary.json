@@ -1,0 +1,19 @@
+{
+  "zip": "emva1288_10V_maxcool.zip",
+  "sets": 42,
+  "sets_by_category": {
+    "dark": 21,
+    "bright": 21
+  },
+  "frames_per_set": 8,
+  "image_shape": [
+    1128,
+    1128
+  ],
+  "image_dtype": "uint16",
+  "z_threshold": 4.38,
+  "z_definition": "(frame - mean of the same 8-frame set) / population std of the same set, positive tail only",
+  "total_positive_outliers": 0,
+  "total_tested_pixel_frames": 427521024,
+  "note": "This literal within-set Z calculation cannot produce z > sqrt(8-1)=2.646 for finite nonzero stacks, so a 4.38 threshold requires an external reference mean/std or a specified leave-one-out/reference-window method."
+}

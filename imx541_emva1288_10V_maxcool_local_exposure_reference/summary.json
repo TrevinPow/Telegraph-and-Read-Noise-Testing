@@ -1,0 +1,68 @@
+{
+  "zip": "emva1288_10V_maxcool.zip",
+  "z_threshold": 4.38,
+  "window_definition": "Other sets whose exposure time is within the stated relative window of the target exposure, excluding the target set.",
+  "residual_definition": "Each set is converted to frame-minus-that-set's pixel-wise 8-frame mean before local reference statistics are calculated.",
+  "aggregate": {
+    "0.1": {
+      "dark": {
+        "analyzed_sets": 8,
+        "positive_z_gt_4_38_pixel_frames": 5657,
+        "tested_pixel_frames": 81432576,
+        "pooled_fraction": 6.946851343619537e-05,
+        "pooled_percentage": 0.006946851343619536,
+        "mean_per_set_fraction": 6.946851343619537e-05,
+        "median_reference_sets": 6.5
+      },
+      "bright": {
+        "analyzed_sets": 8,
+        "positive_z_gt_4_38_pixel_frames": 2875,
+        "tested_pixel_frames": 81432576,
+        "pooled_fraction": 3.530528126729038e-05,
+        "pooled_percentage": 0.0035305281267290376,
+        "mean_per_set_fraction": 3.5305281267290385e-05,
+        "median_reference_sets": 6.5
+      }
+    },
+    "0.25": {
+      "dark": {
+        "analyzed_sets": 9,
+        "positive_z_gt_4_38_pixel_frames": 5272,
+        "tested_pixel_frames": 91611648,
+        "pooled_fraction": 5.754726735185465e-05,
+        "pooled_percentage": 0.0057547267351854645,
+        "mean_per_set_fraction": 5.754726735185464e-05,
+        "median_reference_sets": 8.0
+      },
+      "bright": {
+        "analyzed_sets": 9,
+        "positive_z_gt_4_38_pixel_frames": 2486,
+        "tested_pixel_frames": 91611648,
+        "pooled_fraction": 2.7136287298313858e-05,
+        "pooled_percentage": 0.0027136287298313855,
+        "mean_per_set_fraction": 2.7136287298313855e-05,
+        "median_reference_sets": 8.0
+      }
+    },
+    "0.5": {
+      "dark": {
+        "analyzed_sets": 15,
+        "positive_z_gt_4_38_pixel_frames": 18744,
+        "tested_pixel_frames": 152686080,
+        "pooled_fraction": 0.00012276168200794728,
+        "pooled_percentage": 0.012276168200794729,
+        "mean_per_set_fraction": 0.0001227616820079473,
+        "median_reference_sets": 9.0
+      },
+      "bright": {
+        "analyzed_sets": 15,
+        "positive_z_gt_4_38_pixel_frames": 21307,
+        "tested_pixel_frames": 152686080,
+        "pooled_fraction": 0.00013954775707124056,
+        "pooled_percentage": 0.013954775707124055,
+        "mean_per_set_fraction": 0.00013954775707124053,
+        "median_reference_sets": 9.0
+      }
+    }
+  }
+}
